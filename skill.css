@@ -1,0 +1,87 @@
+/* Skills.css */
+
+.skills {
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #6e7dff, #ff9c9c); /* Gradient background */
+  text-align: center;
+  color: #fff; /* Change text color to white for better contrast */
+  border-radius: 10px; /* Optional: Rounded corners for the section */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Adds shadow to make the text stand out */
+}
+
+.skills p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.skill-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #333; /* Text color inside cards */
+}
+
+.skill-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.skill-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skill-card ul li {
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+  text-transform: capitalize;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .skills h2 {
+    font-size: 2rem;
+  }
+
+  .skills p {
+    font-size: 1rem;
+  }
+
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill-card {
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+
+  .skill-card ul li {
+    font-size: 1rem;
+  }
+}
