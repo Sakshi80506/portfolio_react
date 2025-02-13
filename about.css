@@ -1,0 +1,66 @@
+/* About.css */
+
+.about {
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #6e7dff, #ff9c9c); /* Blue to Pink gradient */
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.about p strong {
+  font-weight: 600;
+  color: #1e90ff; /* Blue color for highlighting important words */
+}
+
+.about .highlight {
+  font-size: 1.2rem;
+  color: #1e90ff; /* Blue color for emphasis */
+  font-weight: 600;
+  margin-top: 1.5rem;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  background-color: rgba(30, 144, 255, 0.2); /* Light blue background for emphasis */
+  transition: background-color 0.3s ease;
+}
+
+.about .highlight:hover {
+  background-color: rgba(30, 144, 255, 0.4); /* Darker blue on hover */
+}
+
+@media (max-width: 768px) {
+  .about h2 {
+    font-size: 2rem;
+  }
+
+  .about p {
+    font-size: 1rem;
+  }
+
+  .about .highlight {
+    font-size: 1rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
